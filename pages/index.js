@@ -1,7 +1,7 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import { motion } from "framer-motion"
+import Head from "next/head";
+import Image from "next/image";
+import styles from "../styles/Home.module.css";
+import { motion } from "framer-motion";
 
 export default function Home() {
   return (
@@ -13,40 +13,56 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <motion.img 
+        <motion.img
           animate={{
-            opacity: 1
+            opacity: 1,
           }}
           whileHover={{ scale: 1.1 }}
           whileTap={{ scale: 0.9 }}
-          src={"/Triangle.svg"}
-          className= "h-48 mb-4"
+          src={"/brandmark.svg"}
+          className="h-48 mb-4"
         />
         <motion.p
-          className="font-bold text-6xl"
+          className="font-light text-6xl pt-5"
           animate={{
             opacity: 1,
-            x: 0
+            x: 0,
           }}
           whileHover={{ scale: 1.2 }}
           whileTap={{ scale: 0.9 }}
         >
-          delta devs
-        </motion.p> 
+          <span className="font-semibold">delta</span>devs
+        </motion.p>
 
         <p className={"text-2xl text-center p-5 mt-12"}>
           {/* <a href="https://twitter.com/deltadevelopers" className="mt-12">
             <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
           </a>
           <br/><br/> */}
-          <a className="text-blue-500 hover:text-blue-600" href="mailto:social@deltadevs.xyz">hire us</a>
-          <br/><br/>
-          <a className="text-blue-500 hover:text-blue-600" href="mailto:social@deltadevs.xyz">join us</a>
-          <br/><br/>
-          <a className="text-blue-500 hover:text-blue-600" href="https://twitter.com/deltadevelopers">follow us</a>
+          <a
+            className="text-blue-500 hover:text-blue-600"
+            href="mailto:social@deltadevs.xyz"
+          >
+            hire us
+          </a>
+          <br />
+          <br />
+          <a
+            className="text-blue-500 hover:text-blue-600"
+            href="mailto:social@deltadevs.xyz"
+          >
+            join us
+          </a>
+          <br />
+          <br />
+          <a
+            className="text-blue-500 hover:text-blue-600"
+            href="https://x.com/deltadevs_"
+          >
+            follow us
+          </a>
         </p>
-
       </main>
     </div>
-  )
+  );
 }
