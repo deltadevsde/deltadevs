@@ -41,17 +41,9 @@ export default function Home() {
           <br/><br/> */}
           <a
             className="text-blue-500 hover:text-blue-600"
-            href="mailto:social@deltadevs.xyz"
+            href="https://noble.xyz"
           >
-            hire us
-          </a>
-          <br />
-          <br />
-          <a
-            className="text-blue-500 hover:text-blue-600"
-            href="mailto:social@deltadevs.xyz"
-          >
-            join us
+            building noble
           </a>
           <br />
           <br />
