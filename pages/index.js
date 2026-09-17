@@ -13,7 +13,8 @@ export default function Home() {
         />
         <meta name="color-scheme" content="light" />
         <meta name="theme-color" content="#f7f7f8" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.ico?v=2" sizes="any" />
+        <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
       </Head>
 
       <main className={styles.main}>
