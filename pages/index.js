@@ -40,8 +40,8 @@ export default function Home() {
             <a href="https://github.com/distractedm1nd/ztreamer">Zcash tooling</a>.
           </p>
           <p>
-            We are researching a novel timing side-channel attack on a variety of
-            zk backends in collaboration with the Max-Planck Institute for Security
+            We&apos;re also researching the security of zero-knowledge systems in
+            collaboration with researchers at the Max Planck Institute for Security
             and Privacy and Georgia Tech.
           </p>
           <p>
